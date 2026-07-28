@@ -59,7 +59,7 @@ function App() {
 
           {/* Auth: Public Only */}
           <Route
-            path="/auth"
+            path="/auth/*"
             element={
               <PublicOnlyRoute>
                 <AuthPage />
